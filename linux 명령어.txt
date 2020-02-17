@@ -1,0 +1,67 @@
+rpm -qa
+ps -ef
+rpm -qa | nl // 설치된 패키지 수
+ps -ef | nl
+who | nl
+alias
+
+자주 쓰이는 특수기호
+~ tilde, 물결,
+| pipe. 파이프
+
+` : back quote, back tick
+': single quote
+": double quote
+
+~/.bashrc 에서 alias 명령어를 저장시켜 이용할수 있다.
+
+1. 개인용 windows10
+2. Network: UNIX, Linux, Linux_server OS/2
+=> Multi User Multi Tasking
+3. 모바일: android ,IOS
+
+task->작업->process
+UNIX : AIX,HPLX,Solaris,SolarOS
+
+systemctl enable sshd // sshd항상 실행
+systemctl disable firewalld // 방화벽 중지
+
+yum- y install gcc
+yum- y install vim
+df -h 
+hostname
+
+mkdir d1
+cd d1
+rpm -qa | grep python 파이선
+
+package 검색/설치
+rpm -qa | nl
+
+useradd k2//k2라는 유저 추가
+passwd k2//k2유저 비번생성
+
+alias lh='ls -Alh' #용량보기 편함
+alias rp='rpm -qa | grep' #packge검색
+alias pq='ps -ef | grep' #process검색
+alias pt='ping -c3'
+alias rl='. ~/.bash_profile' #relogin
+
+편집기
+ed->ex->vi->vim
+
+vi편집기
+입력모드
+a,o,i를 입력해 실행가능
+실행모드
+:를 입력해 실행 가능
+비쥬얼모드
+v를 입력해 실행가능
+dd잘라내기
+yy복사하기
+p붙여넣기
+
+:$ 맨뒷줄
+gg맨앞
+G맨뒤
+
