@@ -39,7 +39,7 @@ package 검색/설치
 rpm -qa | nl
 
 useradd k2//k2라는 유저 추가
-passwd k2//k2유저 비번생성
+passwd k2//k2유저 비번생성ㅋ
 
 alias lh='ls -Alh' #용량보기 편함
 alias rp='rpm -qa | grep' #packge검색
